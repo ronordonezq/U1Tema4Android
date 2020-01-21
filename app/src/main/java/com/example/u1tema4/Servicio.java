@@ -88,4 +88,8 @@ public class Servicio extends AppCompatActivity {
   public void MiIntentService(View view) {
     startActivity(new Intent(this,MiIntentService.class));
   }
+
+  public void MiBindService(View view) {
+    startActivity(new Intent(this,MiBindService.class));
+  }
 }

@@ -15,9 +15,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MiIntentService"></activity>
+        <activity android:name=".MiBindService"></activity>
+        <activity android:name=".MiIntentService" />
         <activity android:name=".Anuncio_personalizado" />
 
+        <service android:name=".MyLocalService" />
         <service android:name=".ServicioMusica" />
         <service android:name=".ServicioOperacion" />
         <service android:name=".IntentServiceOperacion" />
